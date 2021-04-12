@@ -17,7 +17,7 @@
     $q = $cnx->prepare($sql);
     //4. Ejecuto SQL sentencia
     $result = $q->execute();
-
+    
     if($result){
         echo "El cliente se ha guardado";
     }
@@ -25,3 +25,4 @@
         echo "El cliente no se guardo $nombre";
     }
 ?>
+!
